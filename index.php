@@ -25,6 +25,7 @@
     <div class="background">
       <video
         src="movie/sigco_10sec.mp4"
+        src="movie/sigco_10sec.webm"
         playsinline
         muted
         autoplay
