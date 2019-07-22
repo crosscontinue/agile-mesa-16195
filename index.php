@@ -18,17 +18,25 @@
 <main>
 <div id="wrapper">
   <section id="visual" class="visual" data-name="">
-    <video src="movie/sigco_10sec.mp4" playsinline muted autoplay loop></video>
+    <div class="info">
+      <h1>Sigco.</h1>
+      <p>CRAFT&BEER</p>
+    </div>
+    <div class="background">
+      <video
+        src="movie/sigco_10sec.mp4"
+        playsinline
+        muted
+        autoplay
+        loop
+      ></video>
+    </div>
   </section>
 </div>
 
 </main>
 <footer>
 </footer>
-
-<script type="text/javascript" src="//code.jquery.com/jquery.min.js"></script>
-<script type="text/javascript" src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
-<script type="text/javascript" src="libs/scripts.js"></script>
 
 </body>
 </html>
