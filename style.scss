@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/*
+Theme Name:
+Theme URI:
+Description:
+Version: 1.0
+Author: Takahiro Takeuchi
+Author URI: http://www.tmc-labo.com/
+Tags:
+*/
+
+//@import 'libs/_normalize.scss';
+//@import 'libs/_mixin.scss';
+//@import 'libs/_fontset.scss';
+
+//Font Set
+$fontSpecial: "Noto Sans Japanese","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro", sans-serif;
+
+//Color Set
+$colorBlack: #191919;
+$colorGreen: #2FB5A6;
+$colorWhite: #F7F8F7;
+
+
+
+//Base CSS
+html{
+
+}
+body{
+  margin: 0;
+
+}
+img {
+	vertical-align: bottom;
+}
+
+.visual {
+  display: flex;
+  height: 100vh;
+  box-sizing: border-box;
+  video {
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (max-width:450px){}
+
+//Clear Fix CSS
+.left { float: left }
+.right { float: right }
+.cf { zoom:1 }
+.cf:before, .cf:after { content:""; display:table;}
+.cf:after { clear:both }
